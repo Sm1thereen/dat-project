@@ -1,0 +1,42 @@
+.container-discount{
+    height: 835px;
+    width: 1920px;
+    background-color: #1E6140;
+    padding-bottom: 112px;
+}
+.discount-wrapper{
+    padding-top: 112px;
+    width: 1410px;
+    margin: 0 auto;
+}
+
+.discount-title{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* Switch*/
+.list-switch{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap:10px;
+}
+
+.list-switch__svg{
+    transition: transform 0.3s, fill-opacity 0.3s;
+}
+.list-switch__svg.clicked{
+    transform: scale(1.2);
+}
+.list-switch__svg.clicked rect {
+    fill-opacity: 1;
+}
+
+.btn-discount{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}

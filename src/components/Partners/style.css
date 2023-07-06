@@ -1,0 +1,51 @@
+.partners-container {
+    width: 1920px;
+    height: 511px;
+    background-color: #F8F8F8;
+}
+
+.partners-wrapper {
+    padding-top: 108px;
+}
+
+.partners-list {
+    height: 175px;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.partners-card {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: calc(100% * 8);
+}
+
+.partners-card__item {
+    min-width: 255px;
+    height: 126px;
+    border-radius: 20px;
+    background: #fff;
+    flex: 0 0 auto;
+    transition: transform 0.3s;
+    animation: slideAnimation linear infinite;
+}
+
+@keyframes slideAnimation {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.card-partners__img {
+    margin: 20px 40px;
+}

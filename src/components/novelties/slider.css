@@ -1,0 +1,126 @@
+
+
+.novelties-container {
+    margin: 0 auto;
+    width: 1450px;
+    height: 534px;
+}
+
+.novelties__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 16px;
+}
+
+.novelties__title {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.novelties-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.novelties-list__card__item {
+    width: 255px;
+    min-height: 355px;
+    border-radius: 20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+.novelties-list__card__item:hover{
+    transform: scale(1.1);
+}
+
+.novelties-card__img {
+    margin: 31px 79px;
+}
+
+.card-info {
+    width: 235px;
+    height: 150px;
+    border-radius: 20px;
+    background: rgba(140, 50, 19, 0.06);
+    padding-left: 20px;
+    /*margin: 32px 10px 10px 10px;*/
+    position: relative;
+
+}
+
+.card-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 21px 19px 2px 0;
+    width: 196px;
+    line-height: normal;
+}
+
+.card-status {
+    color: #1e6140;
+    line-height: normal;
+}
+
+.card-cost {
+    color: #84be51;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.card-quantity {
+    color: #000;
+}
+
+.color-change-novelties {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -50px;
+}
+
+.color-change-novelties:hover {
+    cursor: pointer;
+    opacity: 0.3;
+    transform: scale(1.2);
+
+}
+
+.arrow-novelties {
+}
+
+.arrow-novelties:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+/* Switch*/
+.list-switch{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap:10px;
+}
+
+
+.list-switch__svg{
+    transition: transform 0.3s, fill-opacity 0.3s;
+}
+.list-switch__svg.clicked{
+    transform: scale(1.2);
+}
+.list-switch__svg.clicked rect {
+    fill-opacity: 1;
+
+}
+
+

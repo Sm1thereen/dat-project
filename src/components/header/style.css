@@ -1,0 +1,234 @@
+
+.container-banner{
+    background-image: url('../../assets/banner/banner-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+}
+.nav{
+    height: 50px;
+    background-color:#1E6140;
+}
+.nav-list{
+    display: flex;
+    margin-left: 396px;
+
+}
+.nav-list__item{
+    margin-top: 14px;
+    margin-right: 48px;
+
+}
+.nav-list__item__link{
+    font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    color:#fff;
+}
+.nav-list__img{
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.nav-list__login{
+    margin-left: 50px;
+    margin-top: 15px;
+    display: flex;
+}
+.nav-list__item__login{
+    margin-right: 5px;
+}
+.nav-list__item_login__item{
+    margin-top: 15px;
+}
+
+/* Nav info*/
+
+.nav-info{
+    padding-left: 396px;
+    display: flex;
+    padding-top: 20px;
+
+}
+.nav-list__info{
+    padding-top: 13px;
+    padding-left: 30px;
+    display: flex;
+}
+.nav-list__info__search{
+    padding-right:59px;
+}
+.nav-list__info__input{
+    border-radius: 90px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    width: 342px;
+    height: 40px;
+    position: relative;
+    color: #484848;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    padding: 10px 0 10px 19px;
+
+}
+.nav-list__info__button {
+    position: absolute;
+    margin-left: -39px;
+    margin-top: 13px;
+}
+.nav-list__info__contact{
+    display: flex;
+    /*align-items: center;*/
+}
+
+/* Grid contact*/
+.nav-list__info__contact__wrapper{
+    display:grid;
+    grid-column-gap: 5px ;
+    height: 40px;
+    width: 270px;
+    margin-right:50px ;
+}
+.nav_phone{
+    grid-column:1 / 2;
+    grid-row:1 / 3;
+}
+.feedback-link{
+    grid-column:2 / 3;
+    grid-row:2 / 3;
+    color: #84BE51;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.phone-number{
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+    color: #000;
+    font-size: 16px;
+    line-height: normal;
+}
+
+
+/* Icon */
+.nav-list__icon{
+    display:flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.nav-list__icon__item{
+    display: flex;
+}
+.nav-list__icon__item__cost{
+    text-align: center;
+    margin: auto 0;
+    padding-left: 8px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+}
+.color-change:hover{
+    fill: #fff;
+    opacity: .1;
+    cursor: pointer;
+}
+
+/* Button*/
+
+.banner-wrapper{
+    margin-left: 396px;
+    margin-top: 22px;
+}
+
+/* Button */
+.button-banner{
+    border-radius: 20px;
+    border: 1px solid #1E6140;
+    width: 202px;
+    height: 40px;
+}
+.banner-list{
+    display: flex;
+}
+.banner-list__button{
+    margin-right: 26px;
+}
+
+.button-banner{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+.button-banner:hover{
+    background-color:#E74E13;
+}
+.button-banner:hover .button-banner__text {
+    color: white;
+}
+.button-banner__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-banner__img{
+    height: 24px;
+    width: 24px;
+}
+.button-banner__text{
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+
+.container-info{
+    padding-top: 48px;
+    height: 732px;
+    width: 1515px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px
+}
+.main_info{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.info-text {
+    display: grid;
+    gap: 10px;
+}
+.info-title{
+    padding-top: 129px;
+    /*width: 513px;*/
+    /*height: 118px;*/
+    color: #000;
+    font-size: 55px;
+    font-weight: 400;
+    grid-row: 1 / 2;
+}
+
+.info-description{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+    width: 561px;
+    height: 46px;
+    grid-row: 2 / 3;
+    margin-top: 28px;
+    margin-bottom: 23px;
+}
+
+.img-farmer{
+    grid-column:2 / 2;
+    grid-row:1 / 3;
+}
+.text-bold{
+    font-weight: 700;
+}
+
+
+

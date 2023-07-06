@@ -1,0 +1,19 @@
+.novelties-container{
+    margin: 0 auto;
+    width: 1450px;
+    height: 534px;
+}
+.title__item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap:16px;
+}
+.title{
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
