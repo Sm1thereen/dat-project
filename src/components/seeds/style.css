@@ -1,0 +1,33 @@
+.container{
+    background-image: url("../../assets/seeds/seeds-farmer.jpg");
+    width: 1920px;
+    height: 624px;
+}
+.seeds-wrapper{
+    width: 1134px;
+    height: 392px;
+    padding-top: 119px;
+    margin-left: 390px;
+}
+.seeds-title__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.seeds-title{
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 16px;
+}
+.seeds-description{
+    width: 1110px;
+    height: 324px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -2,7 +2,9 @@ import React from 'react';
 import Header from "./components/header/Header";
 import AboutUs from "./components/about-us/AboutUs";
 import Discount from "./components/discount/Discount";
-import Partners from "./components/Partners/Partners";
+import Partners from "./components/partners/Partners";
+import Seeds from "./components/seeds/Seeds";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <AboutUs />
         <Discount />
         <Partners />
+        <Seeds/>
+        <Footer />
     </div>
 
   );
