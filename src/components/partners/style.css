@@ -1,5 +1,5 @@
 .partners-container {
-    width: 1920px;
+    width:100%;
     height: 511px;
     background-color: #F8F8F8;
 }
@@ -11,11 +11,8 @@
 .partners-list {
     height: 175px;
     width: 100%;
+    position: relative;
     overflow: hidden;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
 }
 
 .partners-card {
@@ -25,6 +22,7 @@
     padding: 0;
     margin: 0;
     width: calc(100% * 8);
+    animation: moveSlideshow 35s linear infinite;
 }
 
 .partners-card__item {
@@ -33,16 +31,16 @@
     border-radius: 20px;
     background: #fff;
     flex: 0 0 auto;
-    transition: transform 0.3s;
-    animation: slideAnimation linear infinite;
+    transform: translate3d(0, 0, 0);
+    transition: opacity 0.5s ease-out;
 }
 
-@keyframes slideAnimation {
+@keyframes moveSlideshow {
     0% {
-        transform: translate3d(0, 0, 0);
+        transform: translateX(0%);
     }
     100% {
-        transform: translate3d(-100%, 0, 0);
+        transform: translateX(-66.6666%);
     }
 }
 

@@ -68,16 +68,16 @@ const Partners = () => {
                         </li>
                     </ul>
                     <div className="partners-list">
-                    <ul
-                        className="partners-card"
-                        style={{ transform: `translateX(-${activeIndex * slideWidth}px)` }}
-                    >
-                        {slides.map((slide, index) => (
-                            <li key={slide.id} className="partners-card__item">
-                                <img className='card-partners__img' src={slide.src} alt="" />
-                            </li>
-                        ))}
-                    </ul>
+                        <ul
+                            className="partners-card"
+                            style={{ transform: `translateX(-${activeIndex * slideWidth}px)` }}
+                        >
+                            {slides.map((slide, index) => (
+                                <li key={slide.id} className="partners-card__item">
+                                    <img className='card-partners__img' src={slide.src} alt="" />
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -86,5 +86,7 @@ const Partners = () => {
 };
 
 export default Partners;
+
+
 
 
