@@ -1,11 +1,17 @@
 .partners-container {
-    width:100%;
+    width: 1920px;
     height: 511px;
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
 }
 
 .partners-wrapper {
     padding-top: 108px;
+}
+
+.title__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .partners-list {
@@ -21,8 +27,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    width: calc(100% * 8);
-    animation: moveSlideshow 35s linear infinite;
+    animation: moveSlideshow 12s linear infinite;
 }
 
 .partners-card__item {
@@ -37,10 +42,10 @@
 
 @keyframes moveSlideshow {
     0% {
-        transform: translateX(0%);
+        transform: translateX(0);
     }
     100% {
-        transform: translateX(-66.6666%);
+        transform: translateX(-100%);
     }
 }
 

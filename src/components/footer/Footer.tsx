@@ -1,10 +1,11 @@
 import React from 'react';
 import './style.css'
-import logo from '../../assets/footer/footer-logo.svg'
-import callIcon from '../../assets/footer/footer-call-icon.svg';
-import mailIcon from '../../assets/footer/footer-mail-icon.svg';
-import arrowDown from '../../assets/footer/arrow-down.svg';
-import line from '../../assets/footer/line.svg';
+
+import logo from '../../assets/main-page/footer/footer-logo.svg'
+import callIcon from '../../assets/main-page/footer/footer-call-icon.svg';
+import mailIcon from '../../assets/main-page/footer/footer-mail-icon.svg';
+import arrowDown from '../../assets/footer/main-page/arrow-down.svg';
+import line from '../../assets/main-page/footer/line.svg';
 const Footer = () => {
     return (
         <div>
@@ -47,7 +48,7 @@ const Footer = () => {
                             <a href="" className='footer-item__link'>Агроному в поміч</a>
                         </li>
                     </ul>
-                    <ul className='footer-contact'>
+                    <ul id='contact' className='footer-contact'>
                         <li className='footer-title'>Контакти</li>
                         <li className='footer-call__item'>
                             <img className='footer-phone' src={callIcon} alt=""/>

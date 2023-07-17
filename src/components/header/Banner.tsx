@@ -1,50 +1,16 @@
 import React from 'react';
-import seeds from '../../assets/banner/seeds.svg';
-import sapling from '../../assets/banner/sapling.svg';
-import fertilizer from '../../assets/banner/fertilizer.svg';
-import foodGroup from '../../assets/banner/fooder-group.svg';
-import farmer from '../../assets/banner/farmer.svg';
+import seeds from '../../assets/main-page/banner/seeds.svg';
+import sapling from '../../assets/main-page/banner/sapling.svg';
+import fertilizer from '../../assets/main-pagebanner/fertilizer.svg';
+import foodGroup from '../../assets/main-pagebanner/fooder-group.svg';
+import farmer from '../../assets/main-pagebanner/farmer.svg';
 import manFarmer from '../../assets/banner/man-banner.jpg'
+import ButtonList from "./button-list/ButtonList";
     const Banner = () => {
     return (
         <div>
                 <div className="banner-wrapper">
-                    <ul className='banner-list'>
-                        <li className='banner-list__button'>
-                            <button className='button-banner'>
-                                <div className="button-banner__content">
-                                    <img className='button-banner__img' src={seeds} alt=""/>
-                                    <p className='button-banner__text'>Насіння</p>
-                                </div>
-                            </button>
-                        </li>
-                        <li className='banner-list__button'>
-                            <button className='button-banner'>
-                                <img className='button-banner__img' src={sapling} alt=""/>
-                                <p className='button-banner__text'>Засоби захисту </p>
-                            </button>
-                        </li>
-                        <li className='banner-list__button'>
-                            <button className='button-banner'>
-                                <img className='button-banner__img' src={fertilizer} alt=""/>
-                                <p className='button-banner__text'>Добрива</p>
-                            </button>
-
-                        </li>
-                        <li className='banner-list__button'>
-                            <button className='button-banner'>
-                                <img className='button-banner__img' src={foodGroup} alt=""/>
-                                <p className='button-banner__text'>кормова група</p>
-                            </button>
-
-                        </li>
-                        <li className='banner-list__button'>
-                            <button className='button-banner'>
-                                <img className='button-banner__img' src={farmer} alt=""/>
-                                <p className='button-banner__text'>Агроному в поміч</p>
-                            </button>
-                        </li>
-                    </ul>
+                    <ButtonList/>
                     <div className="container-info">
                         <div className="main_info">
                             <div className="info-text">

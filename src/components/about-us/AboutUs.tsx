@@ -6,7 +6,7 @@ import Novelties from "../novelties/Novelties";
 const AboutUs = () => {
     return (
         <div>
-            <main className="about-us">
+            <main id='about-us' className="about-us">
                 <div className="about-us-container">
                     <img className='about-us__img' src={ground} alt=""/>
                     <div className="about-us__text">
